@@ -108,6 +108,7 @@ public class SignUpPage extends BasePage {
     }
 
     public boolean isErrorMessageExists(){
+        ThreadSleep10();
 //        WebElement tmp = driver.findElement(By.xpath("//*[@class='alert alert-danger m-5 p-5']"));
 //            return isElementDisplayed(tmp,"Error Alert");
             return isElementDisplayed(errorAlert,"Error Alert");

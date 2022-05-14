@@ -152,6 +152,13 @@ public class BasePage {
 
     }
 
+    protected void ThreadSleep10(){
+        try {
+            Thread.sleep(10);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
     public String getAttribute(WebElement e, String attribute,String elementDesc) {
         System.out.println("Getting '"+attribute+"' Attribute of "+elementDesc);
         return e.getAttribute(attribute);

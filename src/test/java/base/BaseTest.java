@@ -55,8 +55,8 @@ public class BaseTest {
 //                "DRIVER = " + getDriver());
     }
 
-//    @Parameters("browser")
-//    @AfterMethod
+    @Parameters("browser")
+    @AfterMethod
     public synchronized void quitDriver(@Optional String browser, ITestResult result) throws InterruptedException, IOException {
         Thread.sleep(300);
         DriverFactory.killWebDriverInstance();
