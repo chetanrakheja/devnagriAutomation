@@ -1,0 +1,21 @@
+{
+  "registeredUser":{
+    "email":"chetanrakheja@gmail.com",
+    "phoneNumber": "9910454745",
+    "FirstName": "Chetan",
+    "LastName": "Rakheja",
+    "Company": "devnagri",
+    "Industry": "Agriculture",
+    "password":"Chetan@1234",
+    "confirmPassword":"Chetan@1234",
+    "wantToSubscribe": false
+  },
+  "invalidPassword":{
+    "username":"rakhejachetan.dev@gmail.com",
+    "password":"invalidpassword"
+  },
+  "validUser":{
+    "username":"rakhejachetan.dev@gmail.com",
+    "password":"Chetan@1234"
+  }
+}

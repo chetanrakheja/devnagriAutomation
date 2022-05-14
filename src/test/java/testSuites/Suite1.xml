@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Devnagri Dev Suite">
+    <test name="SignUp Tests">
+        <classes>
+            <class name = "tests.SignUpTest"/>
+        </classes>
+    </test>
+
+</suite>
